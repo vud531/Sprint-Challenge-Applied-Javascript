@@ -32,13 +32,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+document object model is an html tree,
+the root is the html document itselt, 
+branches and sub-branches are children and grand-children of the document, also known as html elements
+
 2. What is an event?
 
-3. What is an event listener?
+an interaction between users and the DOM (different html elements)
+
+ex: key pressed, mouse clicked, mouse scrolled
+
+3. What is an event listener? 
+    
+a method that tells the html element object to wait (listen) for a specific action (event) from users, 
+
+when the action matches the expetation, perform a specified function
+
+ex: button.addEventListener('click', () => onClick())
+
+the addEventListener tells the element button to wait for the click action to perform the onClick() function
 
 4. Why would we convert a NodeList into an Array?
+nodelist are like array but lacks of cool feature such as .map, .reduce(), .filter(), etc.
 
 5. What is a component?
+we canagroup different html elements that all have something in common into a component
+
+we'll then manipulate this whole component using js, html, and css the same way we would manipulate a sing html element
 
 ### Git Set up
 
